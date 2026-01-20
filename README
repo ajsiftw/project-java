@@ -12,4 +12,4 @@ TestNG
 - Data Provider method - @DataProvider(name = "LoginDataProvider"), @Test(dataProvider = "LoginDataProvider")
 - Data Provider method - @DataProvider(name = "LoginDataProvider"), @Test(dataProvider = "LoginDataProvider", dataProviderClass = CustomDataProvider.class)
 - Parallel Tests - <suite name="Parallel Suite" parallel = "tests/classes/methods/instances" thread-count="3">
-- Listeners - ITestListener - @Listeners(CustomListener.class) above test class or
+- Listeners - ITestListener - @Listeners(CustomListener.class) above test class or in testng.xml <listeners><listener class-name="tests.testng.CustomListener"/></listeners>
