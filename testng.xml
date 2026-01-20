@@ -1,3 +1,65 @@
-<suite>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Name" >
+<!--<suite name="Parallel Suite" parallel = "classes" thread-count="2">-->
+
+    <test name="Test Name">
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <exclude name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.testng.FirstTest">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+            <class name="tests.testng.SecondTest">
+                <methods>
+                    <include name="test5"/>
+                    <include name="test6"/>
+                </methods>
+            </class>
+            <class name="tests.testng.DependencyTest"/>
+            <class name="tests.testng.GroupingTest"/>
+            <class name="tests.testng.ParametersTest"/>
+        </classes>
+    </test>
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com"/>
+    <test name="Parameter Test Chrome">
+        <classes>
+            <class name="tests.testng.ParametersTest"/>
+        </classes>
+    </test>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com"/>
+    <test name="Parameter Test Firefox">
+        <classes>
+            <class name="tests.testng.ParametersTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="Parallel Tests">-->
+<!--        <classes>-->
+<!--            <class name="tests.testng.ParallelTestOne"/>-->
+<!--            <class name="tests.testng.ParallelTestTwo"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <listeners>
+        <listener class-name="tests.testng.CustomListener"/>
+    </listeners>
+    <test name="Listener Tests">
+        <classes>
+            <class name="tests.testng.ListenerTest"/>
+        </classes>
+    </test>
 
 </suite>

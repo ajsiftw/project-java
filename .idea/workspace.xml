@@ -4,17 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf6336d6-bdc1-48a7-ab14-0e8327a9c04c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/qa/test/automation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="bf6336d6-bdc1-48a7-ab14-0e8327a9c04c" name="Changes" comment="1st commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/CustomDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/CustomListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/DataProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/DependencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/GroupingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/ListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/ParallelTestOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/ParallelTestTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/ParametersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/SecondTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +60,32 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AssertionsTest.executor": "Debug",
+    "TestNG.AssertionsTest.logoTest.executor": "Debug",
+    "TestNG.C:/Users/ajsif/IdeaProjects/project-java/test-output/testng-failed.xml.executor": "Run",
+    "TestNG.C:/Users/ajsif/IdeaProjects/project-java/testng.xml.executor": "Run",
+    "TestNG.DataProviderTest.executor": "Run",
+    "TestNG.DependencyTest.driveCar.executor": "Run",
+    "TestNG.DependencyTest.executor": "Run",
+    "TestNG.FirstTest.executor": "Run",
+    "TestNG.GroupingTest.executor": "Run",
+    "TestNG.ListenerTest.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginTest.testValidLogin.executor": "Run",
+    "TestNG.ParallelTestOne.executor": "Run",
+    "TestNG.ParallelTestTwo.executor": "Run",
+    "TestNG.ParametersTest.executor": "Run",
+    "TestNG.SecondTest.executor": "Run",
     "TestNG.SeleniumTest.Setup.executor": "Run",
     "TestNG.SeleniumTest.executor": "Run",
+    "TestNG.TestNG.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/ajsif/IdeaProjects/project-java/src/test/java/tests",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -62,33 +93,118 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="base" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="LoginTest.testValidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestNG">
+    <configuration name="DataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project-java" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="testValidLogin" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.testng" />
+      <option name="MAIN_CLASS_NAME" value="tests.testng.DataProviderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListenerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.testng" />
+      <option name="MAIN_CLASS_NAME" value="tests.testng.ListenerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelTestOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.testng" />
+      <option name="MAIN_CLASS_NAME" value="tests.testng.ParallelTestOne" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelTestTwo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.testng" />
+      <option name="MAIN_CLASS_NAME" value="tests.testng.ParallelTestTwo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNG" type="TestNG" temporary="true">
+      <module name="project-java" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter2" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.DataProviderTest" />
+      <item itemvalue="TestNG.ListenerTest" />
+      <item itemvalue="TestNG.ParallelTestOne" />
+      <item itemvalue="TestNG.ParallelTestTwo" />
+      <item itemvalue="TestNG.TestNG" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.testValidLogin" />
+        <item itemvalue="TestNG.TestNG" />
+        <item itemvalue="TestNG.ListenerTest" />
+        <item itemvalue="TestNG.ParallelTestTwo" />
+        <item itemvalue="TestNG.ParallelTestOne" />
+        <item itemvalue="TestNG.DataProviderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -101,6 +217,19 @@
       <option name="presentableId" value="Default" />
       <updated>1768838072512</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st commit">
+      <option name="closed" value="true" />
+      <created>1768855071378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768855071378</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
   </component>
 </project>

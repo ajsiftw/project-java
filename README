@@ -1,0 +1,15 @@
+TestNG
+- Settings Plugins - Add TestNG Plugin
+- Settings Plugins - Add Create TestNG XML Plugin
+- Run - Edit configurations for testng.xml file and add listeners - EmailableReporter and FailedReporter
+- Annotations - @Test < @Before/AfterMethod < @Before/AfterClass < @Before/AfterTest < @Before/AfterSuite
+- Priority - (priority = 1) - default 0
+- Enabling/Disabling - (enabled = false) - default true
+- Always Run - (alwaysRun = true) - default false
+- Dependency - (dependsOnMethods = {"methodName1", "methodName2"})
+- Groups - (groups = {"sanity", "regression"})
+- Parameters - @Parameters({"browser", "url"})
+- Data Provider method - @DataProvider(name = "LoginDataProvider"), @Test(dataProvider = "LoginDataProvider")
+- Data Provider method - @DataProvider(name = "LoginDataProvider"), @Test(dataProvider = "LoginDataProvider", dataProviderClass = CustomDataProvider.class)
+- Parallel Tests - <suite name="Parallel Suite" parallel = "tests/classes/methods/instances" thread-count="3">
+- Listeners - ITestListener - @Listeners(CustomListener.class) above test class or
