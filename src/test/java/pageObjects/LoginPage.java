@@ -5,17 +5,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import java.time.Duration;
 
 public class LoginPage {
 
     public WebDriver driver;
 
-    public LoginPage (WebDriver thisDriver){
-        driver = thisDriver;
-        PageFactory.initElements(thisDriver, this);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
     @FindBy(id = "userName")

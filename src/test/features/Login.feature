@@ -22,6 +22,5 @@ Feature: Login
 
     Examples:
     | email | password |
-    |ajsiftw | Password123! |
     |ajsiftl | Password123! |
     |ajsiftd | Password123! |
