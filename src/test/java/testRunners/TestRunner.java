@@ -11,7 +11,8 @@ import org.junit.runner.RunWith;
         glue = "stepDefinitions",
         dryRun = false,
         monochrome = true,
-        plugin = {"pretty", "html:test-output"}
+        plugin = {"pretty", "html:test-output"},
+        tags = "@single, @driven"
 )
 
 public class TestRunner {
