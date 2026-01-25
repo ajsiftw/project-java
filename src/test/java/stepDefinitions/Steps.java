@@ -1,10 +1,22 @@
 package stepDefinitions;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import java.util.Objects;
 
 public class Steps extends BaseSteps{
+
+    @Before
+    public void setup() {
+        System.out.println("Tests Start Here");
+    }
+
+    @After
+    public void tearDown() {
+        System.out.println("Tests End Here");
+    }
 
     @Given("User launches chrome browser")
     public void user_launches_chrome_browser() {

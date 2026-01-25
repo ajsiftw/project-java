@@ -1,8 +1,10 @@
 Feature: Practice Form
 
-  Scenario: Submit Student Registration Form
+  Background: Initial Practice Form Steps
     Given User launches chrome browser
     When User opens URL "https://demoqa.com/login"
+
+  Scenario: Submit Student Registration Form
     And User enters username as "ajsiftw" and password as "Password123!"
     And User clicks login
     Then Page title should be "DEMOQA"
@@ -23,9 +25,7 @@ Feature: Practice Form
     Then Page contains text "Thanks for submitting the form"
     And User closes browser
 
-  Scenario Outline: Submit Student Registration Form
-    Given User launches chrome browser
-    When User opens URL "https://demoqa.com/login"
+  Scenario Outline: Submit Student Registration Form Data Driven
     And User enters username as "<user>" and password as "<password>"
     And User clicks login
     Then Page title should be "DEMOQA"

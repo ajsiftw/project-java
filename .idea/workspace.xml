@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf6336d6-bdc1-48a7-ab14-0e8327a9c04c" name="Changes" comment="7th commit workspace">
+    <list default="true" id="bf6336d6-bdc1-48a7-ab14-0e8327a9c04c" name="Changes" comment="8th commit workspace">
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/WaitHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/features/PracticeForm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/PracticeForm.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/PracticeFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,44 +51,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: Login.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: PracticeForm.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.AssertionsTest.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.AssertionsTest.logoTest.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.C:/Users/ajsif/IdeaProjects/project-java/test-output/testng-failed.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/ajsif/IdeaProjects/project-java/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DataProviderTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DependencyTest.driveCar.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DependencyTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FirstTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GroupingTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ListenerTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testValidLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ParallelTestOne.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ParallelTestTwo.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ParametersTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SecondTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SeleniumTest.Setup.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SeleniumTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNG.executor&quot;: &quot;Run&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/ajsif/IdeaProjects/project-java/src/test/java/tests&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: Login.executor": "Run",
+    "Cucumber Java.Feature: PracticeForm.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AssertionsTest.executor": "Debug",
+    "TestNG.AssertionsTest.logoTest.executor": "Debug",
+    "TestNG.C:/Users/ajsif/IdeaProjects/project-java/test-output/testng-failed.xml.executor": "Run",
+    "TestNG.C:/Users/ajsif/IdeaProjects/project-java/testng.xml.executor": "Run",
+    "TestNG.DataProviderTest.executor": "Run",
+    "TestNG.DependencyTest.driveCar.executor": "Run",
+    "TestNG.DependencyTest.executor": "Run",
+    "TestNG.FirstTest.executor": "Run",
+    "TestNG.GroupingTest.executor": "Run",
+    "TestNG.ListenerTest.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginTest.testValidLogin.executor": "Run",
+    "TestNG.ParallelTestOne.executor": "Run",
+    "TestNG.ParallelTestTwo.executor": "Run",
+    "TestNG.ParametersTest.executor": "Run",
+    "TestNG.SecondTest.executor": "Run",
+    "TestNG.SeleniumTest.Setup.executor": "Run",
+    "TestNG.SeleniumTest.executor": "Run",
+    "TestNG.TestNG.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/ajsif/IdeaProjects/project-java/src/test/java/tests",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="base" />
@@ -99,7 +101,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Login">
+  <component name="RunManager" selected="Cucumber Java.Feature: PracticeForm">
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/Login.feature" />
@@ -140,6 +142,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunners" />
+      <option name="MAIN_CLASS_NAME" value="testRunners.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestNG" type="TestNG" temporary="true">
       <module name="project-java" />
       <shortenClasspath name="NONE" />
@@ -165,12 +182,14 @@
     <list>
       <item itemvalue="Cucumber Java.Feature: PracticeForm" />
       <item itemvalue="Cucumber Java.Feature: Login" />
+      <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="TestNG.TestNG" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Feature: PracticeForm" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="TestNG.TestNG" />
       </list>
     </recent_temporary>
@@ -231,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769350440569</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="8th commit workspace">
+      <option name="closed" value="true" />
+      <created>1769351972369</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769351972369</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,6 +267,7 @@
     <MESSAGE value="5th commit TestNG" />
     <MESSAGE value="6th commit delete" />
     <MESSAGE value="7th commit workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="7th commit workspace" />
+    <MESSAGE value="8th commit workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="8th commit workspace" />
   </component>
 </project>
