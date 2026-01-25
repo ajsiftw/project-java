@@ -25,7 +25,7 @@ public class PracticeFormPage {
     By calendarDateOfBirth = By.id("dateOfBirthInput");
     By calendarMonth = By.xpath("//*[@id=\"dateOfBirth\"]/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/select");
     By calendarYear = By.xpath("//*[@id=\"dateOfBirth\"]/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/select");
-    By calendarDay = By.cssSelector("[aria-label='Choose Tuesday, December 23rd, 1986']");
+    By calendarDay = By.xpath("//*[@id=\"dateOfBirth\"]/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[3]");
     By txtSubjects = By.id("subjectsInput");
     By checkboxHobbiesSports = By.cssSelector("label[for='hobbies-checkbox-1']");
     By checkboxHobbiesReading = By.cssSelector("label[for='hobbies-checkbox-1']");

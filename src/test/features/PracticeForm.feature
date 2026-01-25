@@ -22,3 +22,31 @@ Feature: Practice Form
     And User clicks submit
     Then Page contains text "Thanks for submitting the form"
     And User closes browser
+
+  Scenario Outline: Submit Student Registration Form
+    Given User launches chrome browser
+    When User opens URL "https://demoqa.com/login"
+    And User enters username as "<user>" and password as "<password>"
+    And User clicks login
+    Then Page title should be "DEMOQA"
+    When User clicks on forms
+    And User clicks on practice form
+    Then Page contains text "Student Registration Form"
+    When  User enters first name as "<firstName>" and last name as "<lastName>"
+    And User enters email as "<email>"
+    And User selects a gender as "<gender>"
+    And User enters his phone number as "<mobile>"
+    And User select his birth date as year "<birthYear>" month "<birthMonth>" day 23rd
+    And User adds his subjects as "<subject>"
+    And User selects his hobbies as "<hobbies>"
+    And User uploads a picture
+    And User adds his address as "<address>"
+    And User selects a state as "<state>" and a city as "<city>"
+    And User clicks submit
+    Then Page contains text "Thanks for submitting the form"
+    And User closes browser
+
+    Examples:
+      | user | password | firstName | lastName | email | gender | mobile | birthYear | birthMonth | subject | hobbies | address | state | city |
+      | ajsiftl | Password123! | Georgiana | Radu | hehe@gmail.com | female | 0727867423 | 1990 | January | Maths | Reading | Super Street 11, Building 22, Ap 33 | Uttar Pradesh | Agra |
+      | ajsiftd | Password123! | Alex | Radu | haha@gmail.com | other | 0727867424 | 1995 | July | Chemistry | Music | Super Street 111, Building 222, Ap 333 | Haryana | Karnal |
