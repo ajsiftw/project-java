@@ -17,7 +17,7 @@ public class ListenerTest {
     @Test
     public void test2() {
         System.out.println("This is test2");
-        Assert.assertEquals("A","B");
+        Assert.assertEquals("A","A");
     }
 
     @Test

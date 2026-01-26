@@ -1,6 +1,5 @@
 Feature: Login
 
-  @single
   Scenario: Successful login with valid credentials
     Given User launches chrome browser
     When User opens URL "https://demoqa.com/login"
@@ -11,7 +10,6 @@ Feature: Login
     Then Page title should be "DEMOQA"
     And User closes browser
 
-  @driven
   Scenario Outline: Login Data Driven
     Given User launches chrome browser
     When User opens URL "https://demoqa.com/login"

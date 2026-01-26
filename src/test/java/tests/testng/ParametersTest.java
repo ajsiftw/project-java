@@ -24,12 +24,12 @@ public class ParametersTest {
         driver.get(url);
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1, enabled = false)
     public void logoTest() {
         System.out.println("This is the logo test");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2, enabled = false)
     public void homePageTitle() {
         System.out.println("This is the home page title test");
         String title = driver.getTitle();

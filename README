@@ -8,8 +8,8 @@ Postman
 Links:
 https://mvnrepository.com
 
-
 TestNG (TDD) - functional - https://www.youtube.com/playlist?list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45
+- Dependencies in pom.xml
 - Settings Plugins - Add TestNG Plugin
 - Settings Plugins - Add Create TestNG XML Plugin
 - Run - Edit configurations for testng.xml file and add listeners - EmailableReporter and FailedReporter
@@ -26,9 +26,10 @@ TestNG (TDD) - functional - https://www.youtube.com/playlist?list=PLUDwpEzHYYLsW
 - Listeners - ITestListener - @Listeners(CustomListener.class) above test class or in testng.xml <listeners><listener class-name="tests.testng.CustomListener"/></listeners>
 
 Cucumber (BDD) - acceptance - https://www.youtube.com/playlist?list=PLUDwpEzHYYLuOleK8iPl6kc2UbXGvllBY
+- Dependencies in pom.xml
 - Settings Plugins - Add Cucumber Plugin and junit/hamcrest libraries in project structure/modules/dependencies/libraries/java/ide/lib
-- Feature File - example.feature - (gherkin: Feature: Scenario: Given When Then And)
-- Step definition - @Given("I launch chrome browser"),  @When("I open OrangeHRM home page"), @Then("I verify that the logo is present on page"), @And("Close browser")
+- Feature File - example.feature - (gherkin: Feature: Background: Scenario: Scenario Outline: Examples: Given When Then And)
+- Step definition - @Given("I launch chrome browser"),  @When("I open home page"), @Then("I verify that the logo is present on page"), @And("Close browser")
 - Test runner - above test class
 @RunWith(Cucumber.class),
 @CucumberOptions(

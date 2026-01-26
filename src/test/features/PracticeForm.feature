@@ -4,7 +4,6 @@ Feature: Practice Form
     Given User launches chrome browser
     When User opens URL "https://demoqa.com/login"
 
-  @single
   Scenario: Submit Student Registration Form
     And User enters username as "ajsiftw" and password as "Password123!"
     And User clicks login
@@ -26,7 +25,6 @@ Feature: Practice Form
     Then Page contains text "Thanks for submitting the form"
     And User closes browser
 
-  @driven
   Scenario Outline: Submit Student Registration Form Data Driven
     And User enters username as "<user>" and password as "<password>"
     And User clicks login
